@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,600&family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@300;500;700;900&display=swap");
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+.body {
+  font-family: Barlow-Semi-Condensed;
+}
+
+.container {
+    display: grid; 
+    /* grid-template-columns: ; */
+    gap: 20px;
+}
+
+.cards {
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.cards .quote{
+position: absolute;
+right: 20px;
+top: 10px;
+width: 104px;
+height: 102px;
+flex-shrink: 0; 
+fill: #A775F1; 
+}
+
+/* **************************** */
+/* *** TEXT & CARDS COLORS *** */
+
+.cards.violet {
+    background-color: hsl(263, 55%, 52%);
+}
+.cards.grey{
+    background-color: #48556A;
+}
+.cards.white{
+    background-color: #FFFFFF;
+}
+.cards.white h3{
+    color: #48556A;
+}
+.cards.white p{
+    color: #48556A;
+    opacity: 0.5;
+}
+.cards.white h2{
+    color: #48556A;
+}
+.cards.white p.comment{
+    color: #48556A;
+    opacity: 0.7; 
+}
+.cards.dark-grey{
+    background-color: #19202D;
+}
+
+
+/* *************************** */
+/********** CARDS_HEAD *******  */
+
+.cards .card-head {
+  display: flex;
+  align-items: center;
+}
+
+.card-head .image img {
+  border-radius: 28px;
+  border: 2px solid #a775f1;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  margin-right: 10px;
+}
+
+.card-head .user {
+  color: #FFF;
+font-family: Barlow Semi Condensed;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 13px; /* 100% */ 
+}
+
+.card-head p{
+    color: #FFF;
+font-family: Barlow Semi Condensed;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: 11px; /* 100% */ 
+opacity: 0.5;
+}
+
+/* ********************************* */
+/* ******** CARD LOWER PART ******** */
+
+.cards h2 {
+ 
+  color: #fff;
+  font-family: Barlow Semi Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cards p.comment {
+  color: #CFCFCF;
+font-family: Barlow Semi Condensed;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 138.462% */ 
+opacity: 0.7; 
+}
+
+@media (min-width:640px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .cards.violet{
+        grid-column: 1/3;
+    }
+}
+
