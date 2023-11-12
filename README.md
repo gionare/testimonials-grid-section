@@ -27,7 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![SCREENSHOT](images/testimonials-grid-section.png)
-![css grid](images/css-grid-poster.png){: width="200" height="100"}
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -120,5 +120,9 @@ I coudl still use those testimonials styles in future projects.
 - Github - [Giorgi Nareklishvili](https://gionare.github.io/testimonials-grid-section/)
 - LinkedIn - [@gionare](https://www.linkedin.com/in/gionare/)
 
-## Acknowledgments
+## Useful Screenshot 
+
+![css grid](images/css-grid-poster.png){: width="200"}
+
+
 
