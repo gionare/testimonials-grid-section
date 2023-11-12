@@ -122,7 +122,7 @@ I coudl still use those testimonials styles in future projects.
 
 ## Useful Screenshot 
 
-![css grid](images/css-grid-poster.png){: width="200"}
+![css grid](images/css-grid-poster.png)
 
 
 
