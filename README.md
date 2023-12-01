@@ -4,7 +4,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Screenshot
 
-<img src="images/testimonials-grid-section.png" width="600">
+<img src="images/testimonials-grid-section.png" width="750">
 
 ## Table of contents
 
